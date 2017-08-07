@@ -33,14 +33,14 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/afero"
 	"github.com/spf13/cast"
-	bp "github.com/spf13/hugo/bufferpool"
-	"github.com/spf13/hugo/deps"
-	"github.com/spf13/hugo/helpers"
-	"github.com/spf13/hugo/output"
-	"github.com/spf13/hugo/parser"
-	"github.com/spf13/hugo/source"
-	"github.com/spf13/hugo/tpl"
-	"github.com/spf13/hugo/transform"
+	bp "github.com/srcclr/hugo/bufferpool"
+	"github.com/srcclr/hugo/deps"
+	"github.com/srcclr/hugo/helpers"
+	"github.com/srcclr/hugo/output"
+	"github.com/srcclr/hugo/parser"
+	"github.com/srcclr/hugo/source"
+	"github.com/srcclr/hugo/tpl"
+	"github.com/srcclr/hugo/transform"
 	"github.com/spf13/nitro"
 	"github.com/spf13/viper"
 )
@@ -86,7 +86,7 @@ type Site struct {
 	// to get the singular form from that value.
 	taxonomiesPluralSingular map[string]string
 
-	// This is temporary, see https://github.com/spf13/hugo/issues/2835
+	// This is temporary, see https://github.com/srcclr/hugo/issues/2835
 	// Maps 	"actors-gerard-depardieu" to "Gérard Depardieu" when preserveTaxonomyNames
 	// is set.
 	taxonomiesOrigKey map[string]string

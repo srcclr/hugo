@@ -24,7 +24,7 @@ import (
 
 	jww "github.com/spf13/jwalterweatherman"
 
-	"github.com/spf13/hugo/helpers"
+	"github.com/srcclr/hugo/helpers"
 )
 
 const (

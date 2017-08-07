@@ -19,17 +19,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/spf13/hugo/deps"
+	"github.com/srcclr/hugo/deps"
 
-	"github.com/spf13/hugo/hugolib"
+	"github.com/srcclr/hugo/hugolib"
 
 	"fmt"
 
-	"github.com/spf13/hugo/hugofs"
+	"github.com/srcclr/hugo/hugofs"
 
 	"github.com/spf13/afero"
-	"github.com/spf13/hugo/create"
-	"github.com/spf13/hugo/helpers"
+	"github.com/srcclr/hugo/create"
+	"github.com/srcclr/hugo/helpers"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 )

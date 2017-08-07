@@ -24,10 +24,10 @@ import (
 
 	"github.com/eknkc/amber"
 	"github.com/spf13/afero"
-	bp "github.com/spf13/hugo/bufferpool"
-	"github.com/spf13/hugo/deps"
-	"github.com/spf13/hugo/helpers"
-	"github.com/spf13/hugo/output"
+	bp "github.com/srcclr/hugo/bufferpool"
+	"github.com/srcclr/hugo/deps"
+	"github.com/srcclr/hugo/helpers"
+	"github.com/srcclr/hugo/output"
 	"github.com/yosssi/ace"
 )
 
@@ -120,7 +120,7 @@ func (*TemplateProvider) Clone(d *deps.Deps) error {
 		vc := template.Must(v.Clone())
 		// The extra lookup is a workaround, see
 		// * https://github.com/golang/go/issues/16101
-		// * https://github.com/spf13/hugo/issues/2549
+		// * https://github.com/srcclr/hugo/issues/2549
 		vc = vc.Lookup(vc.Name())
 		vc.Funcs(tmpl.funcster.funcMap)
 		tmpl.overlays[k] = vc
@@ -329,7 +329,7 @@ func (t *GoHTMLTemplate) AddTemplateFileWithMaster(name, overlayFilename, master
 	} else {
 		// The extra lookup is a workaround, see
 		// * https://github.com/golang/go/issues/16101
-		// * https://github.com/spf13/hugo/issues/2549
+		// * https://github.com/srcclr/hugo/issues/2549
 		overlayTpl = overlayTpl.Lookup(overlayTpl.Name())
 		if err := applyTemplateTransformers(overlayTpl); err != nil {
 			return err

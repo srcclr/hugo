@@ -17,7 +17,7 @@ import (
 	"bytes"
 	"io"
 
-	bp "github.com/spf13/hugo/bufferpool"
+	bp "github.com/srcclr/hugo/bufferpool"
 )
 
 type trans func(rw contentTransformer)

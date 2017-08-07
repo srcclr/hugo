@@ -16,7 +16,7 @@ package source
 import (
 	"testing"
 
-	"github.com/spf13/hugo/hugofs"
+	"github.com/srcclr/hugo/hugofs"
 	"github.com/spf13/viper"
 )
 

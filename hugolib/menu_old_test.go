@@ -21,12 +21,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/spf13/hugo/deps"
+	"github.com/srcclr/hugo/deps"
 
 	"path/filepath"
 
 	toml "github.com/pelletier/go-toml"
-	"github.com/spf13/hugo/source"
+	"github.com/srcclr/hugo/source"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

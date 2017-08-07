@@ -12,8 +12,8 @@ weight: 20
 
 Community-contributed [Hugo themes](http://themes.gohugo.io/), showcased
 at [themes.gohugo.io](//themes.gohugo.io/), are hosted in a centralized
-GitHub repository.  The [Hugo Themes Repo](https://github.com/spf13/hugoThemes)
-itself at [github.com/spf13/hugoThemes](https://github.com/spf13/hugoThemes) is
+GitHub repository.  The [Hugo Themes Repo](https://github.com/srcclr/hugoThemes)
+itself at [github.com/srcclr/hugoThemes](https://github.com/srcclr/hugoThemes) is
 really a meta repository which contains pointers to set of contributed themes.
 
 ## Installing all themes
@@ -26,7 +26,7 @@ on your internet connection the download of all themes might take a while.
 Otherwise you will not be able to clone the theme repositories.
 
 ```bash
-$ git clone --depth 1 --recursive https://github.com/spf13/hugoThemes.git themes
+$ git clone --depth 1 --recursive https://github.com/srcclr/hugoThemes.git themes
 ```
 Before you use a theme, remove the .git folder in that theme's root folder. Otherwise, this will cause problem if you deploy using Git.
 

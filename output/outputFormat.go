@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/spf13/hugo/media"
+	"github.com/srcclr/hugo/media"
 )
 
 var (

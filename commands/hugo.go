@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/spf13/hugo/hugofs"
+	"github.com/srcclr/hugo/hugofs"
 
 	"log"
 	"net/http"
@@ -30,9 +30,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/spf13/hugo/config"
+	"github.com/srcclr/hugo/config"
 
-	"github.com/spf13/hugo/parser"
+	"github.com/srcclr/hugo/parser"
 	flag "github.com/spf13/pflag"
 
 	"regexp"
@@ -41,12 +41,12 @@ import (
 	"github.com/spf13/afero"
 	"github.com/spf13/cobra"
 	"github.com/spf13/fsync"
-	"github.com/spf13/hugo/deps"
-	"github.com/spf13/hugo/helpers"
-	"github.com/spf13/hugo/hugolib"
-	"github.com/spf13/hugo/livereload"
-	"github.com/spf13/hugo/utils"
-	"github.com/spf13/hugo/watcher"
+	"github.com/srcclr/hugo/deps"
+	"github.com/srcclr/hugo/helpers"
+	"github.com/srcclr/hugo/hugolib"
+	"github.com/srcclr/hugo/livereload"
+	"github.com/srcclr/hugo/utils"
+	"github.com/srcclr/hugo/watcher"
 	jww "github.com/spf13/jwalterweatherman"
 	"github.com/spf13/nitro"
 	"github.com/spf13/viper"

@@ -17,8 +17,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/spf13/hugo/deps"
-	"github.com/spf13/hugo/helpers"
+	"github.com/srcclr/hugo/deps"
+	"github.com/srcclr/hugo/helpers"
 )
 
 func TestDefaultHandler(t *testing.T) {

@@ -18,7 +18,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/spf13/hugo/deps"
+	"github.com/srcclr/hugo/deps"
 	"github.com/stretchr/testify/require"
 )
 

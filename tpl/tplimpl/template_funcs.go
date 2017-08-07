@@ -40,13 +40,13 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/spf13/hugo/hugofs"
+	"github.com/srcclr/hugo/hugofs"
 
 	"github.com/bep/inflect"
 	"github.com/spf13/afero"
 	"github.com/spf13/cast"
-	"github.com/spf13/hugo/deps"
-	"github.com/spf13/hugo/helpers"
+	"github.com/srcclr/hugo/deps"
+	"github.com/srcclr/hugo/helpers"
 	jww "github.com/spf13/jwalterweatherman"
 
 	// Importing image codecs for image.DecodeConfig

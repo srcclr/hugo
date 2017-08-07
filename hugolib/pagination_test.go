@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/spf13/hugo/deps"
-	"github.com/spf13/hugo/output"
+	"github.com/srcclr/hugo/deps"
+	"github.com/srcclr/hugo/output"
 	"github.com/stretchr/testify/require"
 )
 

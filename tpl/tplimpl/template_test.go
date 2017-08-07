@@ -25,9 +25,9 @@ import (
 	"testing"
 
 	"github.com/spf13/afero"
-	"github.com/spf13/hugo/deps"
+	"github.com/srcclr/hugo/deps"
 
-	"github.com/spf13/hugo/tpl"
+	"github.com/srcclr/hugo/tpl"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 )

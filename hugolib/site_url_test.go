@@ -19,8 +19,8 @@ import (
 
 	"html/template"
 
-	"github.com/spf13/hugo/deps"
-	"github.com/spf13/hugo/source"
+	"github.com/srcclr/hugo/deps"
+	"github.com/srcclr/hugo/source"
 	"github.com/stretchr/testify/require"
 )
 

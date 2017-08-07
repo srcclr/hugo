@@ -22,10 +22,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/spf13/hugo/deps"
-	"github.com/spf13/hugo/helpers"
-	"github.com/spf13/hugo/source"
-	"github.com/spf13/hugo/tpl"
+	"github.com/srcclr/hugo/deps"
+	"github.com/srcclr/hugo/helpers"
+	"github.com/srcclr/hugo/source"
+	"github.com/srcclr/hugo/tpl"
 	"github.com/stretchr/testify/require"
 )
 
@@ -55,7 +55,7 @@ func CheckShortCodeMatchAndError(t *testing.T, input, expected string, withTempl
 
 	cfg, fs := newTestCfg()
 
-	// Need some front matter, see https://github.com/spf13/hugo/issues/2337
+	// Need some front matter, see https://github.com/srcclr/hugo/issues/2337
 	contentFile := `---
 title: "Title"
 ---

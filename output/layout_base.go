@@ -18,7 +18,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/spf13/hugo/helpers"
+	"github.com/srcclr/hugo/helpers"
 )
 
 const baseFileBase = "baseof"

@@ -18,7 +18,7 @@ import (
 
 	"os"
 
-	"github.com/spf13/hugo/commands"
+	"github.com/srcclr/hugo/commands"
 	jww "github.com/spf13/jwalterweatherman"
 )
 

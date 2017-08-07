@@ -39,5 +39,5 @@ Until then, for us running the stable v0.12 release, please remember to add the 
 
 ## References
 
-* https://github.com/spf13/hugo/issues/776
+* https://github.com/srcclr/hugo/issues/776
 

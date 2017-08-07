@@ -14,9 +14,9 @@
 package commands
 
 import (
-	"github.com/spf13/hugo/deps"
-	"github.com/spf13/hugo/helpers"
-	"github.com/spf13/hugo/hugofs"
+	"github.com/srcclr/hugo/deps"
+	"github.com/srcclr/hugo/helpers"
+	"github.com/srcclr/hugo/hugofs"
 )
 
 type commandeer struct {

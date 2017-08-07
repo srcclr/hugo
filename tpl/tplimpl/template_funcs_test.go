@@ -31,10 +31,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/spf13/hugo/tpl"
+	"github.com/srcclr/hugo/tpl"
 
-	"github.com/spf13/hugo/deps"
-	"github.com/spf13/hugo/helpers"
+	"github.com/srcclr/hugo/deps"
+	"github.com/srcclr/hugo/helpers"
 
 	"io/ioutil"
 	"log"
@@ -42,9 +42,9 @@ import (
 
 	"github.com/spf13/afero"
 	"github.com/spf13/cast"
-	"github.com/spf13/hugo/config"
-	"github.com/spf13/hugo/hugofs"
-	"github.com/spf13/hugo/i18n"
+	"github.com/srcclr/hugo/config"
+	"github.com/srcclr/hugo/hugofs"
+	"github.com/srcclr/hugo/i18n"
 	jww "github.com/spf13/jwalterweatherman"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"

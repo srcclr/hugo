@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/spf13/hugo/parser"
+	"github.com/srcclr/hugo/parser"
 )
 
 var (

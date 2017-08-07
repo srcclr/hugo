@@ -22,11 +22,11 @@ import (
 	"github.com/bep/inflect"
 	jww "github.com/spf13/jwalterweatherman"
 
-	"github.com/spf13/hugo/helpers"
-	"github.com/spf13/hugo/source"
+	"github.com/srcclr/hugo/helpers"
+	"github.com/srcclr/hugo/source"
 
-	"github.com/spf13/hugo/deps"
-	"github.com/spf13/hugo/hugofs"
+	"github.com/srcclr/hugo/deps"
+	"github.com/srcclr/hugo/hugofs"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

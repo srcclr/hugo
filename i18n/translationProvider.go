@@ -17,8 +17,8 @@ import (
 	"fmt"
 
 	"github.com/nicksnyder/go-i18n/i18n/bundle"
-	"github.com/spf13/hugo/deps"
-	"github.com/spf13/hugo/source"
+	"github.com/srcclr/hugo/deps"
+	"github.com/srcclr/hugo/source"
 )
 
 // TranslationProvider provides translation handling, i.e. loading

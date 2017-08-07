@@ -16,8 +16,8 @@ package helpers
 import (
 	"fmt"
 
-	"github.com/spf13/hugo/config"
-	"github.com/spf13/hugo/hugofs"
+	"github.com/srcclr/hugo/config"
+	"github.com/srcclr/hugo/hugofs"
 )
 
 // PathSpec holds methods that decides how paths in URLs and files in Hugo should look like.

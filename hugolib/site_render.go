@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	bp "github.com/spf13/hugo/bufferpool"
+	bp "github.com/srcclr/hugo/bufferpool"
 )
 
 // renderPages renders pages each corresponding to a markdown file.

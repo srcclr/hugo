@@ -18,8 +18,8 @@ import (
 
 	"reflect"
 
-	"github.com/spf13/hugo/deps"
-	"github.com/spf13/hugo/tpl"
+	"github.com/srcclr/hugo/deps"
+	"github.com/srcclr/hugo/tpl"
 )
 
 const sitemapTemplate = `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

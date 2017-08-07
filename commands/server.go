@@ -28,8 +28,8 @@ import (
 
 	"github.com/spf13/afero"
 	"github.com/spf13/cobra"
-	"github.com/spf13/hugo/config"
-	"github.com/spf13/hugo/helpers"
+	"github.com/srcclr/hugo/config"
+	"github.com/srcclr/hugo/helpers"
 	jww "github.com/spf13/jwalterweatherman"
 )
 

@@ -22,8 +22,8 @@ import (
 
 	"fmt"
 
-	"github.com/spf13/hugo/helpers"
-	"github.com/spf13/hugo/output"
+	"github.com/srcclr/hugo/helpers"
+	"github.com/srcclr/hugo/output"
 	"github.com/spf13/viper"
 )
 

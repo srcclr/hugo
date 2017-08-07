@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/spf13/hugo/deps"
+	"github.com/srcclr/hugo/deps"
 )
 
 func TestPermalink(t *testing.T) {

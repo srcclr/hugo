@@ -22,10 +22,10 @@ import (
 
 	"path/filepath"
 
-	"github.com/spf13/hugo/deps"
+	"github.com/srcclr/hugo/deps"
 
-	"github.com/spf13/hugo/helpers"
-	"github.com/spf13/hugo/tpl"
+	"github.com/srcclr/hugo/helpers"
+	"github.com/srcclr/hugo/tpl"
 	"github.com/stretchr/testify/require"
 )
 

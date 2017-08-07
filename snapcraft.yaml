@@ -17,7 +17,7 @@ parts:
   hugo:
     source: .
     plugin: go
-    go-importpath: github.com/spf13/hugo
+    go-importpath: github.com/srcclr/hugo
     build-packages:
       - git
       - make
@@ -26,7 +26,7 @@ parts:
     prepare: |
       export GOPATH=$(dirname $SNAPCRAFT_PART_INSTALL)/go
       export PATH=$GOPATH/bin:$PATH
-      cd $GOPATH/src/github.com/spf13/hugo
+      cd $GOPATH/src/github.com/srcclr/hugo
       make vendor
       make test
       rm -f $GOPATH/bin/govendor

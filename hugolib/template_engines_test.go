@@ -20,7 +20,7 @@ import (
 
 	"strings"
 
-	"github.com/spf13/hugo/deps"
+	"github.com/srcclr/hugo/deps"
 )
 
 func TestAllTemplateEngines(t *testing.T) {

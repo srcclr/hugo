@@ -19,7 +19,7 @@ enableGitInfo = true
 [[menu.main]]
     name = "Download Hugo"
     pre = "<i class='fa fa-download'></i>"
-    url = "https://github.com/spf13/hugo/releases"
+    url = "https://github.com/srcclr/hugo/releases"
     weight = -200
 [[menu.main]]
     name = "Site Showcase"

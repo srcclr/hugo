@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/spf13/hugo/deps"
+	"github.com/srcclr/hugo/deps"
 )
 
 func TestRSSOutput(t *testing.T) {
